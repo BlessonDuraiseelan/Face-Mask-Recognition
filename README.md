@@ -1,7 +1,6 @@
 # Face-Mask-Recognition
 The Face Mask app has been designed to check if the User is wearning mask or not.
-We will be training the model with face mask images as well as non-mask images .
-The webcam will be opened to see if the person is wearing mask or not and draw a square around the face which will show the percentage of wearning a mask or not
+We will be training the model with face mask images as well as non-mask images . The webcam will be opened to see if the person is wearing mask or not and draw a square around the face which will show the percentage of wearning a mask or not
 
 # Dataset and Modelling
 We are coding two files where one file will be used to check if the user is wearing a mask or not and the other file will be used to invoke the webcam and apply the mask detection techniques.
