@@ -8,7 +8,7 @@ Once the data is imported we will preprocess the input images and convert the la
 
 We are coding two files where one file will be used to check if the user is wearing a mask or not and the other file will be used to invoke the webcam and apply the mask detection techniques.
 
-Another file will be coded where the facila features will be detected and a blob will be created to detect the face.
+Another file will be coded where the facial features will be detected and a blob will be created to detect the face.
 The app identifies the facial features and then checks if the user is wearing mask or not. We will use files containing the facial features detection and weights that will detect face and use the previously developed mak detector file to check if the face detected has mask or not.
 
 We will use the model that was obtained from mask detector and add them with MobileNet model which will enable to detect the mask worn faces as well as run the video by invoking webcam.
