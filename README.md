@@ -12,4 +12,7 @@ Streamlit was used to develop the model and it can be run on the localhost.
 ![image](https://user-images.githubusercontent.com/76935226/140601598-a42f2ce3-5d55-4923-8812-d9565dd2f273.png)
 ![8](https://user-images.githubusercontent.com/76935226/140601616-5b4b1221-f7c0-4db6-a98b-f7a4acb066c4.jpg)
 
+![Screenshot (176)](https://user-images.githubusercontent.com/76935226/149612815-da930d99-3aa9-45bb-b2d3-f42d70ce2b39.png)
+
+
 
