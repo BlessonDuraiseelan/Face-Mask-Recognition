@@ -3,7 +3,7 @@ The Face Mask app has been designed to check if the User is wearning mask or not
 We will be training the model with face mask images as well as non-mask images . The webcam will be opened to see if the person is wearing mask or not and draw a square around the face which will show the percentage of wearning a mask or not
 
 # Dataset and Modelling
-We will be designing a model that will be able to distinguish the masked images and non-masked images. The dataset contains of masked and non-masked images. 
+We will be designing a model that will be able to distinguish the masked images and non-masked images. The dataset contains of masked and non-masked images. The data was obtained ffrom Kaggle and other oper source datasets.
 Once the data is imported we will preprocess the input images and convert the labels into encoding. Once the dataset is splitted into Training and Test along with augmentation we will use MobileNetV2 model to train the base layers. Then we will be using the normal convolution operation to train the further layers.
 
 We are coding two files where one file will be used to check if the user is wearing a mask or not and the other file will be used to invoke the webcam and apply the mask detection techniques.
