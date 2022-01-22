@@ -8,10 +8,15 @@ Once the data is imported we will preprocess the input images and convert the la
 
 We are coding two files where one file will be used to check if the user is wearing a mask or not and the other file will be used to invoke the webcam and apply the mask detection techniques.
 
+In the first coding file we have created a model that is able to distinguish between masked faces and non-masked faces and achieves accuracy of 87%.
 Another file will be coded where the facial features will be detected and a blob will be created to detect the face.
+In order to detect facial features we will be using Deep Neural Network along with predefined weights file that contains information regarding facial features.
+
+Now we will combine both the models: the previously created mask detector and the facial detector model.
 The app identifies the facial features and then checks if the user is wearing mask or not. We will use files containing the facial features detection and weights that will detect face and use the previously developed mak detector file to check if the face detected has mask or not.
 
-We will use the model that was obtained from mask detector and add them with MobileNet model which will enable to detect the mask worn faces as well as run the video by invoking webcam.
+
+The overall process can be made in performed in a live enviorment by invoking the webcam.
 Streamlit was used to develop the model and it can be run on the localhost.
 
 ![image](https://user-images.githubusercontent.com/76935226/140601593-8bdd83b0-ccb8-4406-9224-1235ab31e8b3.png)
